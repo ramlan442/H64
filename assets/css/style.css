@@ -269,7 +269,7 @@ figure.team-container img {
   border-radius: 0 0 0 29vh;
   color: white;
   padding-bottom: 2.5vh;
-  box-shadow:0 0 5px 2px #6a6a6a;
+  box-shadow: 0 0 6px 1px #6a6a6a;
 }
 .card-flex-banner {
   height: 100%;
@@ -691,9 +691,9 @@ button[id='menu']:hover {
     float: unset;
     width: 100%;
   }
-.one-text::before{
-  left: 55%;
-}
+  .one-text::before {
+    left: 55%;
+  }
   .image-banner > img {
     width: 50%;
   }
