@@ -120,6 +120,45 @@ nav a:hover {
     transform: translate(0, 20px);
   }
 }
+
+/* .one-text{
+  
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: transparent !important;
+  position: absolute;
+  margin: auto;
+}
+.one-text::before{
+  content : "Selamat Datang";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-right: 3px solid black;
+  overflow: hidden;
+  animation: typeIt 4s steps(32);
+}
+.animation-one{
+  height: 3vh;
+}
+
+@keyframes typeIt{
+  0%{
+    width: 0%;
+  }
+
+  50%{
+    width: 50%;
+  }
+
+  100%{
+    width: 100%;
+  }
+}
+*/
 .three-text {
   text-align: center;
 }
@@ -138,7 +177,6 @@ nav a:hover {
   float: left;
   margin: 25vh 0 0 10vh;
   letter-spacing: 2px;
-  line-height: 20px;
   background-image: linear-gradient(109.7deg, rgb(60, 17, 128) 5.7%, rgba(52, 48, 132, 0.22) 92.4%);
   border-radius: 0px 10px 10px 0;
   padding: 15px;
@@ -231,6 +269,7 @@ figure.team-container img {
   border-radius: 0 0 0 29vh;
   color: white;
   padding-bottom: 2.5vh;
+  box-shadow:0 0 5px 2px #6a6a6a;
 }
 .card-flex-banner {
   height: 100%;
@@ -455,6 +494,7 @@ figure.team-container img {
   background-color: white;
   position: relative;
   border-radius: 6px 6px 6px 20px;
+  box-shadow: 0 0 15px 5px #484848;
 }
 
 .card-flex2 {
@@ -476,8 +516,8 @@ figure.team-container img {
   height: 100%;
   width: 100%;
   flex-basis: 50%;
+  box-shadow: 0 0 5px 1px #c8c8c8;
 }
-
 .card-logo {
   width: 100%;
   height: 40vh;
@@ -546,6 +586,23 @@ footer p a {
 }
 footer p a:hover {
   text-decoration: underline;
+}
+
+.image-sponsor img {
+  width: 30vh;
+}
+.image-sponsor a .dts {
+  margin-top: 40px;
+}
+.image-sponsor span {
+  margin: 0 20px;
+  display: inline-block;
+  position: relative;
+  font-size: 5vh;
+}
+.last-header {
+  border-bottom: 3px solid #2da2ce;
+  display: inline;
 }
 
 /* untuk tampilan hp */
@@ -634,7 +691,9 @@ button[id='menu']:hover {
     float: unset;
     width: 100%;
   }
-
+.one-text::before{
+  left: 55%;
+}
   .image-banner > img {
     width: 50%;
   }
@@ -771,5 +830,10 @@ button[id='menu']:hover {
   }
   .caption-title p {
     font-size: 0.64em;
+  }
+  .image-sponsor img {
+    display: block;
+    width: 35vw;
+    margin: 0 auto;
   }
 }
