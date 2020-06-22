@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header -->
@@ -39,7 +40,7 @@
           <hr />
           <h1 class="three-text">DTS x Progate</h1>
         </div>
-        <div class="image-banner">
+        <div class="image-banner" data-aos="fade-left">
           <img src="assets/img/image2.png" />
           <hr class="banner-hr" />
           <div class="container-team">
@@ -72,7 +73,7 @@
           <div class="container header" id="content1">
             <h2 class="header-profile">TEAM PROFILE</h2>
           </div>
-          <div class="container-timeline left">
+          <div class="container-timeline left" data-aos="fade-left">
             <div class="content-timeline center">
               <div class="image-profile">
                 <img src="assets/img/avatar.png" />
@@ -95,7 +96,7 @@
               </div>
             </div>
           </div>
-          <div class="container-timeline right">
+          <div class="container-timeline right" data-aos="fade-left">
             <div class="content-timeline center">
               <div class="image-profile">
                 <img src="assets/img/avatar-female.png" />
@@ -119,7 +120,7 @@
               </div>
             </div>
           </div>
-          <div class="container-timeline left">
+          <div class="container-timeline left" data-aos="fade-left">
             <div class="content-timeline center">
               <div class="image-profile">
                 <img src="assets/img/avatar-female.png" />
@@ -154,7 +155,7 @@
         <div class="flexbox-container center">
           <div class="card-flex-question">
             <div class="card-logo relative">
-              <i class="fa fa-html5 absolute" aria-hidden="true"></i>
+              <i class="fa fa-html5 absolute" data-aos="fade-left" aria-hidden="true"></i>
               <h1 class="text-logo absolute">HTML</h1>
             </div>
           </div>
@@ -182,7 +183,7 @@
           </div>
           <div class="card-flex-question">
             <div class="card-logo relative">
-              <i class="fa fa-css3 absolute" aria-hidden="true"></i>
+              <i class="fa fa-css3 absolute" aria-hidden="true" data-aos="fade-right"></i>
               <h1 class="text-logo absolute">CSS</h1>
             </div>
           </div>
@@ -190,7 +191,7 @@
         <div class="flexbox-container center">
           <div class="card-flex-question">
             <div class="card-logo relative">
-              <i class="fa fa-js absolute" aria-hidden="true">JS</i>
+              <i class="fa fa-js absolute" aria-hidden="true" data-aos="fade-down">JS</i>
             </div>
           </div>
           <div class="card-flex-question">
@@ -227,5 +228,9 @@
       </p>
     </footer>
     <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
