@@ -255,7 +255,7 @@ figure.team-container img {
 }
 .caption {
   display: block;
-  color: black;
+  color: #393939;
 }
 
 .clear {
@@ -305,7 +305,8 @@ figure.team-container img {
   padding-bottom: 35px;
   text-align: center;
 }
-.container.header.last {
+.container.header.last,
+.container.header.t {
   margin-top: 40px;
 }
 
@@ -727,8 +728,8 @@ button[id='menu']:hover {
     margin-right: 20px !important;
   }
   figure.team-container img {
-    width: 5vh;
-    height: 5vh;
+    width: 7vh;
+    height: 7vh;
     border-radius: 50%;
   }
   .caption {
@@ -763,7 +764,7 @@ button[id='menu']:hover {
   }
   .header-profile,
   .header-quention {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .image-profile img {
     width: 50%;
